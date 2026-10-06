@@ -1,0 +1,11 @@
+MDAnalysis>=2.6
+pandas==2.2.2
+networkx
+biopython>=1.83
+scipy>=1.14.0
+bidict>=0.23
+python-dotenv
+setuptools
+rich>=13.0
+plotly>=5.0,<7
+kaleido==0.2.1

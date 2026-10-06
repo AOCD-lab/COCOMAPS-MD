@@ -1,0 +1,793 @@
+{
+  "schemaVersion": 2,
+  "defaultThreshold": 0.7,
+  "minimumThreshold": 0.5,
+  "minimumPatchSize": 2,
+  "totalFrames": 10,
+  "edges": [
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 103,
+        "resName": "A"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 130,
+        "resName": "ARG"
+      },
+      "frameCount": 7,
+      "conservation": 0.7
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 103,
+        "resName": "A"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 131,
+        "resName": "PRO"
+      },
+      "frameCount": 6,
+      "conservation": 0.6
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 103,
+        "resName": "A"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 132,
+        "resName": "PHE"
+      },
+      "frameCount": 6,
+      "conservation": 0.6
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 103,
+        "resName": "A"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 159,
+        "resName": "GLY"
+      },
+      "frameCount": 5,
+      "conservation": 0.5
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 103,
+        "resName": "A"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 187,
+        "resName": "PRO"
+      },
+      "frameCount": 5,
+      "conservation": 0.5
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 104,
+        "resName": "U"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 128,
+        "resName": "PHE"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 104,
+        "resName": "U"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 130,
+        "resName": "ARG"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 104,
+        "resName": "U"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 159,
+        "resName": "GLY"
+      },
+      "frameCount": 7,
+      "conservation": 0.7
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 104,
+        "resName": "U"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 160,
+        "resName": "PHE"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 104,
+        "resName": "U"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 189,
+        "resName": "GLU"
+      },
+      "frameCount": 5,
+      "conservation": 0.5
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 105,
+        "resName": "C"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 128,
+        "resName": "PHE"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 105,
+        "resName": "C"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 160,
+        "resName": "PHE"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 105,
+        "resName": "C"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 162,
+        "resName": "PHE"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 105,
+        "resName": "C"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 191,
+        "resName": "VAL"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 105,
+        "resName": "C"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 192,
+        "resName": "TYR"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 105,
+        "resName": "C"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 193,
+        "resName": "SER"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 105,
+        "resName": "C"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 194,
+        "resName": "LYS"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 106,
+        "resName": "C"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 126,
+        "resName": "ARG"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 106,
+        "resName": "C"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 155,
+        "resName": "LYS"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 106,
+        "resName": "C"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 157,
+        "resName": "LEU"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 106,
+        "resName": "C"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 160,
+        "resName": "PHE"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 106,
+        "resName": "C"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 162,
+        "resName": "PHE"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 106,
+        "resName": "C"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 193,
+        "resName": "SER"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 106,
+        "resName": "C"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 194,
+        "resName": "LYS"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 106,
+        "resName": "C"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 195,
+        "resName": "LEU"
+      },
+      "frameCount": 7,
+      "conservation": 0.7
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 107,
+        "resName": "A"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 126,
+        "resName": "ARG"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 107,
+        "resName": "A"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 155,
+        "resName": "LYS"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 107,
+        "resName": "A"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 194,
+        "resName": "LYS"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 107,
+        "resName": "A"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 195,
+        "resName": "LEU"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 107,
+        "resName": "A"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 196,
+        "resName": "PRO"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 107,
+        "resName": "A"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 197,
+        "resName": "ALA"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 108,
+        "resName": "G"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 199,
+        "resName": "ARG"
+      },
+      "frameCount": 6,
+      "conservation": 0.6
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 108,
+        "resName": "G"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 228,
+        "resName": "THR"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 108,
+        "resName": "G"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 229,
+        "resName": "PHE"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 108,
+        "resName": "G"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 244,
+        "resName": "GLU"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 108,
+        "resName": "G"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 279,
+        "resName": "ILE"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 108,
+        "resName": "G"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 280,
+        "resName": "ARG"
+      },
+      "frameCount": 5,
+      "conservation": 0.5
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 109,
+        "resName": "U"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 229,
+        "resName": "PHE"
+      },
+      "frameCount": 6,
+      "conservation": 0.6
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 109,
+        "resName": "U"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 231,
+        "resName": "SER"
+      },
+      "frameCount": 6,
+      "conservation": 0.6
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 110,
+        "resName": "G"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 213,
+        "resName": "TRP"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 110,
+        "resName": "G"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 217,
+        "resName": "LYS"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 110,
+        "resName": "G"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 228,
+        "resName": "THR"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 110,
+        "resName": "G"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 229,
+        "resName": "PHE"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 110,
+        "resName": "G"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 230,
+        "resName": "SER"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 110,
+        "resName": "G"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 231,
+        "resName": "SER"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 111,
+        "resName": "G"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 213,
+        "resName": "TRP"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 111,
+        "resName": "G"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 214,
+        "resName": "GLN"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 111,
+        "resName": "G"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 215,
+        "resName": "ASP"
+      },
+      "frameCount": 5,
+      "conservation": 0.5
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 111,
+        "resName": "G"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 217,
+        "resName": "LYS"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 111,
+        "resName": "G"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 218,
+        "resName": "ASP"
+      },
+      "frameCount": 9,
+      "conservation": 0.9
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 112,
+        "resName": "A"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 210,
+        "resName": "GLY"
+      },
+      "frameCount": 8,
+      "conservation": 0.8
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 112,
+        "resName": "A"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 211,
+        "resName": "CYS"
+      },
+      "frameCount": 9,
+      "conservation": 0.9
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 112,
+        "resName": "A"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 212,
+        "resName": "SER"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 112,
+        "resName": "A"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 214,
+        "resName": "GLN"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 112,
+        "resName": "A"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 215,
+        "resName": "ASP"
+      },
+      "frameCount": 10,
+      "conservation": 1.0
+    },
+    {
+      "source": {
+        "chain": "A",
+        "resNum": 112,
+        "resName": "A"
+      },
+      "target": {
+        "chain": "B",
+        "resNum": 218,
+        "resName": "ASP"
+      },
+      "frameCount": 7,
+      "conservation": 0.7
+    }
+  ]
+}

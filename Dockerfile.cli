@@ -1,0 +1,57 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# System deps: gcc/gfortran for MDAnalysis/scipy wheels, csh for naccess,
+# nodejs + chromium for highcharts-export-server (Puppeteer)
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+        gcc g++ gfortran csh \
+        nodejs npm \
+        chromium \
+        fonts-liberation fonts-noto-color-emoji \
+    && npm install -g highcharts-export-server@5.1.0 molstar@5.6.1 \
+    && rm -rf /var/lib/apt/lists/*
+
+ENV PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium-wrapper
+ENV PUPPETEER_SKIP_DOWNLOAD=true
+
+# Chromium wrapper: injects --no-sandbox (required for root in Docker) and
+# --disable-dev-shm-usage (Docker's /dev/shm is too small) into every launch.
+RUN mv /usr/bin/chromium /usr/bin/chromium.real && \
+    printf '#!/bin/sh\nexec /usr/bin/chromium.real --no-sandbox --disable-dev-shm-usage "$@"\n' \
+        > /usr/bin/chromium-wrapper && \
+    chmod +x /usr/bin/chromium-wrapper
+
+# Pre-cache Highcharts JS from CDN so the CLI never needs internet at runtime.
+RUN echo '{"title":{"text":"warm"}}' > /tmp/_hc_warm.json && \
+    highcharts-export-server \
+      --infile /tmp/_hc_warm.json --outfile /tmp/_hc_warm.png \
+      --type png --width 200 --scale 1 \
+    && rm -f /tmp/_hc_warm.json /tmp/_hc_warm.png
+
+COPY requirements-cli.txt .
+RUN pip install --no-cache-dir -r requirements-cli.txt
+
+COPY cli/ cli/
+COPY engine/ engine/
+COPY cocomaps/ cocomaps/
+COPY deps/ deps/
+COPY stubs/ stubs/
+COPY setup.py .
+
+# Install the CLI entry point (coco-md)
+RUN pip install --no-cache-dir -e .
+
+# Ensure native binaries are executable
+RUN chmod +x deps/reduce/reduce deps/hbplus/hbplus deps/hbadd/hbadd deps/naccess/naccess deps/naccess/accall && \
+    ln -sf /app/deps/naccess /app/naccess
+
+ENV COCOMAPS_DEPS_DIR=/app/deps
+ENV PYTHONUNBUFFERED=1
+
+# Mount point for PDB files and results
+VOLUME ["/data"]
+WORKDIR /data
+
+ENTRYPOINT ["coco-md"]

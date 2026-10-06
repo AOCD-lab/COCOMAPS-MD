@@ -1,0 +1,11 @@
+Flask==3.0.0
+Flask-CORS==4.0.0
+MDAnalysis
+werkzeug==3.0.1
+setuptools
+python-dotenv
+pandas==2.2.2
+networkx
+biopython>=1.83
+scipy>=1.14.0
+bidict>=0.23

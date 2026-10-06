@@ -1,0 +1,18 @@
+Flask==3.0.0
+Flask-CORS==4.0.0
+MDAnalysis
+werkzeug==3.0.1
+setuptools
+python-dotenv
+pandas==2.2.2
+networkx
+# CoCoMaps local package dependencies
+biopython>=1.83
+scipy>=1.14.0
+bidict>=0.23
+# CLI dependencies
+rich>=13.0
+plotly>=5.0,<7
+kaleido==0.2.1
+# Test dependencies
+pytest>=8.0

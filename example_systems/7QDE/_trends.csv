@@ -1,0 +1,11 @@
+frame,H-bonds,Salt-bridges,π-π interactions,Cation-π interactions,Anion-π interactions,CH-O/N bonds,CH-π interactions,Halogen bonds,Apolar vdW contacts,Polar vdW contacts,Proximal contacts,Clashes,Water mediated,Metal mediated,S-S bonds,Amino-π interactions,Lone pair-π interactions,O/N/SH-π interactions
+1,16,2,5,1,0,27,4,0,1,0,26,3,0,0,0,0,3,0
+2,10,1,6,2,0,24,6,0,0,0,27,0,0,0,0,0,2,0
+3,13,4,5,0,0,24,8,0,1,0,21,1,0,0,0,0,2,0
+4,12,2,6,2,0,28,5,0,2,0,29,1,0,0,0,0,2,0
+5,16,1,5,0,0,26,4,0,0,0,26,0,0,0,0,0,3,0
+6,13,2,5,0,0,26,4,0,0,0,24,3,0,0,0,0,3,0
+7,15,2,5,1,0,30,5,0,2,0,23,1,0,0,0,0,3,0
+8,10,3,5,2,0,25,4,0,0,0,20,4,0,0,0,0,1,0
+9,12,6,5,0,0,25,5,0,1,0,23,2,0,0,0,0,2,0
+10,10,1,4,1,0,27,6,0,0,0,18,3,0,0,0,0,3,0

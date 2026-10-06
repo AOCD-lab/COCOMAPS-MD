@@ -1,0 +1,37 @@
+mda/
+theAtomProblem.md
+
+# macOS system files
+.DS_Store
+
+# Systems folder contains large PDB files and analysis data
+systems/
+systems.zip
+example_systems/*/input.pdb
+
+# Python build artifacts
+__pycache__/
+*.pyc
+*.pyx
+*.egg-info/
+dist/
+build/
+
+# CLI temp files
+temp/
+tmp/
+
+# Environment
+.env
+.venv/
+
+# Documentation
+documentation/
+
+# Wiki (managed by ~/.wiki vault)
+.wiki
+
+# Cursor / AI config
+CLAUDE.md
+.cursorrules
+.obsidian/
